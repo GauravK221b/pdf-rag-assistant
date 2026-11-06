@@ -18,6 +18,35 @@ An AI-powered PDF Question Answering application built using **Retrieval-Augment
 - **Source References:** Display relevant PDF page numbers and retrieved passages alongside answers.
 - **Secure Configuration:** Store API keys using environment variables locally and Streamlit Secrets in deployment.
 
+## 📸 Application Screenshots
+
+### 1. PDF Upload Interface
+
+Upload a PDF document through the Streamlit application.
+<img width="1876" height="645" alt="image" src="https://github.com/user-attachments/assets/cb29b9b4-ad69-4b33-9542-eee70130916b" />
+
+
+### 2. PDF Processing
+
+The application extracts text and prepares the document for semantic retrieval.
+
+<img width="1801" height="697" alt="image" src="https://github.com/user-attachments/assets/d8e69b1e-b9fb-4d7d-ab2f-f4f71ae568d4" />
+
+
+### 3. Question Answering
+
+Ask questions about the uploaded PDF and receive context-aware answers with the LLM provider displayed.
+
+<img width="1830" height="810" alt="image" src="https://github.com/user-attachments/assets/2d2ffd17-5e9a-4551-ac1d-609d4602ecdc" />
+
+
+### 4. Retrieved Sources
+
+Inspect the retrieved PDF passages, source page numbers, and similarity scores.
+
+<img width="1749" height="841" alt="image" src="https://github.com/user-attachments/assets/58a5267d-daf9-4e81-bef9-5f5fedf9cead" />
+
+
 ## 🏗️ System Architecture
 
 ```mermaid
